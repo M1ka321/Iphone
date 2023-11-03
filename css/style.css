@@ -154,7 +154,7 @@ body {
 
 .contacts-form {
   width: 100%;
-  margin: 140px 93px;
+  padding: 140px 93px;
   text-align: center;
 
 }
@@ -239,6 +239,10 @@ body {
   .contacts-title {
     text-align: center;
   }
+
+  .contacts {
+    background-color: #574B63;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -264,13 +268,43 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .headline,
+  .new {
+    padding: 50px 0;
+  }
+
+  .color {
+    padding-bottom: 50px;
+  }
+
+  .contacts-form {
+    margin: 50px 10px;
+  }
+
+  .contacts-form {
+    padding: 50px 70px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-inner {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+
+  .footer-inner .logo {
+    margin: 15px 0;
+  }
+}
+
 @media (max-width: 560px) {
   .title {
     font-size: 34px;
     line-height: 42px;
   }
 
-  .new-title, .color-title , .contacts-title{
+  .new-title, .color-title, .contacts-title {
     font-size: 28px;
     line-height: 32px;
   }
@@ -284,6 +318,14 @@ body {
   .color-item, .color-item img {
     width: 100%;
   }
+
+  .contacts-form {
+    padding: 50px 30px;
+  }
 }
 
-
+@media (max-width: 375px) {
+  .contacts-form {
+    padding: 50px 10px;
+  }
+}
